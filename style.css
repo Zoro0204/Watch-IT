@@ -1,0 +1,32 @@
+.hover-item {
+    transition: 0.3s;
+    opacity: 90%;
+}
+
+.hover-item:hover {
+    transform: translate(0, -5px);
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.modal-dialog {
+    max-width: 600px;
+}
+
+.userbutton {
+    background-color: #1c1d22;
+    color: #EE3F3F;
+}
+
+.userbutton:hover {
+    background-color: #bb2d3b;
+    color: white;
+}
+.center {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
